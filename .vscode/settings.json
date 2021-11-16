@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  "editor.rulers": [80],
+  "editor.renderWhitespace": "boundary",
+  "explorer.compactFolders": false
+}
