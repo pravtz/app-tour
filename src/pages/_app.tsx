@@ -11,6 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="oMn86WCYiC3oLjGSpur7xSqJIUXSeiSa54UeG_zLC5U"
+        />
         <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
         <link rel="apple-touch-icon" href="favicon.svg" />
         {/* font Montserrat - google fonts */}
