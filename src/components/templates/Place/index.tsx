@@ -29,7 +29,7 @@ export default function PlaceTemplate({ place }: PlacesTemplateProps) {
     <Wrapper>
       <NextSeo
         title={`${place.name} | Porto+Alegre `}
-        description={place.description.text}
+        description={place.description?.text}
       />
       <Container>
         <LinkWrapper href="/">
@@ -37,7 +37,11 @@ export default function PlaceTemplate({ place }: PlacesTemplateProps) {
         </LinkWrapper>
         <Heading>{place.name}</Heading>
 
-        <Body dangerouslySetInnerHTML={{ __html: place.description.html }} />
+        <Body
+          dangerouslySetInnerHTML={
+            { __html: place.description?.html } || '<h3>Sem descrição </h3>'
+          }
+        />
         <Gallery>
           {place.gallery.map((image, index) => (
             <Image
