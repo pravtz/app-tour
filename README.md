@@ -1,13 +1,12 @@
 # App-Tour
 
-### Aplicação web completa que utiliza um mapa para destacar os pontos turisticos visitados.
+### Aplicação web completa que utiliza um mapa para destacar os pontos turísticos visitados.
 
-## Ferramentas de Gerenciamento de conteudo:
+## CMS:
 
-### CMS
 o Graphcms e uma das facilidades para gerenciamento de conteúdo nessa Aplicação
 
-## Skills
+## Soluções
 
 Essas são as soluções encontradas para deixar a aplicação dinâmica, leve, reutilizavel, fácil adminstração de contéudo, facil mantenabilidade, escalável, com excelente indexação do google e mensurável:
 
@@ -26,9 +25,9 @@ Essas são as soluções encontradas para deixar a aplicação dinâmica, leve, 
 * Next-SEO
 * Next-progress
 * Babel
+* Vercel
 
-
-## Environment variables:
+## Variaveis de ambientes necessárias:
 
 GRAPHQL_URL
 GRAPHQL_TOKEN
@@ -37,4 +36,4 @@ NEXT_PUBLIC_MAPBOX_USERID
 NEXT_PUBLIC_MAPBOX_STYLEID
 
 
-## Licence
+## Licença
